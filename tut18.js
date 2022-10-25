@@ -1,0 +1,23 @@
+console.log('welcome to tut18');
+
+let today = new Date();
+console.log(today);
+let otherday = new Date('5/19/2019 8:04:40');
+console.log('other day ' + otherday);
+let a=otherday.getDay();
+a=otherday.getDate();
+a=otherday.getFullYear();
+a=otherday.getMonth();
+a=otherday.getHours();
+a=otherday.getMinutes();
+a=otherday.getSeconds();
+a=otherday.getTime();
+a=otherday.getMilliseconds();
+console.log(a);
+otherday.setDate(25);
+otherday.setFullYear(2020);
+otherday.setMonth(1);
+otherday.setHours(12);
+otherday.setMinutes(0);
+otherday.setSeconds(0);
+console.log(otherday);
